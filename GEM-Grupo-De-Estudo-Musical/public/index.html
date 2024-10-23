@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEM- Grupo De Estudo Musical</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="divBoaVindas" class="divBoaVindas">
+        <h1>GEM- Virgilio Basso(VB)</h1>
+        <p>Registro De Aula</p><br><br>
+        <button onclick="iniciarRegistro()">REGISTRAR</button>
+    </div>
+
+    <!-- modal-1 (escolha do naipe) -->
+    <div id="divEscolherNaipe" class="divEscolherNaipe">
+        <h2 onclick="mostrarInstrumentos('cordas')">Cordas</h2><br><br>
+        <h2 onclick="mostrarInstrumentos('madeiras')">Madeiras</h2><br><br>
+        <h2 onclick="mostrarInstrumentos('metais')">Metais</h2><br><br>
+    </div>
+
+    <!-- modal-2 (Escolha do instrumentos) -->
+    <div id="divEscolhaInstrumentos" class="divEscolhaInstrumentos" style="display: none;">
+        <h3>Escolha o instrumento</h3>
+        <div id="instrumentosContainer"></div>
+        <br>
+        <button onclick="fecharEscolhaInstrumento()">Voltar</button>
+    </div>
+
+    <div id="divAlunoProfessor" class="divAlunoProfessor" style="display: none;">
+       <button onclick="cordasInstrumentos('Registrar aluno')">Registrar aluno</button>
+       <button onclick="escolherAlunoProfessor('Registrar professor')">Registrar Professor</button>
+       <button onclick="fecharEscolhaAlunoProfessor() ">Voltar</button>
+    </div>
+
+    <footer>
+        <h2>CCB- Virgilio Basso</h2>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

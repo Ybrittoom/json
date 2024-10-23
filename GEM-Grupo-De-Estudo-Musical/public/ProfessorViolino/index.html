@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Professor 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="divCodigo" id="divCodigo">
+        <h1>CODIGO PESSOAL</h1>
+        <input type="text" name="codigoPessoal" id="codigoPessoal">
+        <button onclick="mostrarFormulario()">verificar</button>
+        <p id="resposta">...</p>
+    </div>
+    
+    <div class="formularioProfessor" id="formularioProfessor">
+        <h1>Formulário Professor 1</h1>
+        <form action="/professorViolino/formulario1" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+            
+            <label for="codigo">Código:</label>
+            <input type="text" id="codigo" name="codigo"><br>
+            
+            <label for="totalAlunos">Total de Alunos:</label>
+            <input type="number" id="totalAlunos" name="totalAlunos"><br>
+            
+            <label for="inicio">Início:</label>
+            <input type="time" id="inicio" name="inicio"><br>
+            
+            <label for="fim">Fim:</label>
+            <input type="time" id="fim" name="fim"><br>
+            
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data"><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

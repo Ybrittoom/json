@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "Yago Emanuel Brito De Moura",
+    "codigo": "91",
+    "totalAlunos": "1",
+    "inicio": "14:50",
+    "fim": "16:45",
+    "data": "2024-10-26"
+  },
+  {
+    "nome": "Danilo Ruan Dias",
+    "codigo": "92",
+    "totalAlunos": "1",
+    "inicio": "15:00",
+    "fim": "16:50",
+    "data": "2024-10-26"
+  },
+  {
+    "nome": "Renan Denis Dias",
+    "codigo": "22",
+    "totalAlunos": "3",
+    "inicio": "13:00",
+    "fim": "17:05",
+    "data": "2024-10-26"
+  }
+]
